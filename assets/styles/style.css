@@ -21,3 +21,52 @@
 @media (min-width: 1400px) {
 
 }
+
+nav {
+    background-color: #282101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    width: calc( 100% - 40px );
+    left: 0;
+    top: calc(100vh - 50px);
+    padding: 0 20px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFBEB;
+    text-decoration: unset;
+    width: 30px;
+    height: 30px;
+}
+
+nav a:last-child {
+    /*padding-right: 20px;*/
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    width: calc( 35px * 3 );
+    padding-right: 20px;
+}
+
+.about .name {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.about .description .text {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+body {
+    padding-bottom: 50px;
+}
