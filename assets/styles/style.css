@@ -53,9 +53,9 @@ nav a {
     height: 30px;
 }
 
-nav a:last-child {
-    /*padding-right: 20px;*/
-}
+/* nav a:last-child {
+    padding-right: 20px;
+} */
 
 nav .menu {
     display: flex;
@@ -88,14 +88,39 @@ nav .menu {
 }
 
 .about .description {
-
-    
+    margin-bottom: 50;
 }
 
 .about .description .text {
     color:white;
     line-height: 25px;
     font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.about .skills {
+    margin-top: 10px;
+}
+
+.about .skills .box .skill{
+    display: inline-block;
+    border: 1px #FFFBEB solid;
+    border-radius: 25px;
+    padding: 0.5rem 1.2rem;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.about .skills .box {
+   
+}
+
+.projects .box .project {
+
+}
+
+.projects .box .project .text-box{
+    
 }
 
 body {
