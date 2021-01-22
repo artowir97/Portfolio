@@ -1,0 +1,82 @@
+
+nav {
+    width: 100%;
+    min-height: 50px;
+    max-height: 150px;
+}
+
+nav .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .box .logo {
+    width: 120px;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+nav .box .menu {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav .box .menu:hover {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    height: auto;
+    background-color: grey;
+}
+
+nav .box .menu:hover img {
+    display: none;
+}
+
+nav .box .menu:hover .item {
+    display: flex !important;
+}
+
+nav .box .menu:hover .active {
+    font-weight: bold;
+    color: black
+}
+
+nav .box .menu:hover .item:first-of-type {
+    margin-top: calc(50px + 10px);
+}
+
+
+nav .box .menu .item {
+    display: none;
+    font-size: 20px;
+    text-decoration: unset;
+    color: #303030;
+}
+
+@keyframes menu-drop
+{
+    0% { margin-left: 0; background-color: dodgerblue }
+    25% { margin-left: 5%; background-color: crimson }
+    50% { margin-left: 15%; background-color: darkorange }
+    75% { margin-left: 30%; background-color: limegreen }
+    100% { margin-left: 60%; background-color: darkgreen }
+}
+
+.animation {
+    height: 200px;
+    width: 200px;
+    animation: menu-drop 5s ease-in-out 1s infinite; 
+    /* animation: [animation-name] [animation-duration] [animation-timing-function] [animation-delay] [animation-interation-count] [animation-direction] [animation-fill-mode]; */
+}
