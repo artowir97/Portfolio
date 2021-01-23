@@ -63,7 +63,7 @@ nav .box .menu .item {
     color: #303030;
 }
 
-@keyframes menu-drop {
+@keyframes moveBox {
     0% {
         margin-left: 0;
         background-color: dodgerblue;
@@ -89,5 +89,5 @@ nav .box .menu .item {
 .animation {
     height: 200px;
     width: 200px;
-    animation: menu-drop 5s ease-in-out 1s infinite;
+    animation: moveBox 5s ease-in-out 1s infinite;
 }
