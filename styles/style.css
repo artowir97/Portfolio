@@ -1,33 +1,10 @@
-@media (min-width: 320px) {
-
-}
-
-@media (min-width: 576px) {
-
-}
-  
-@media (min-width: 768px) {
-    
-}
-  
-@media (min-width: 992px) {
-
-}
-  
-@media (min-width: 1200px) {
-    
-}
-
-@media (min-width: 1400px) {
-
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 body {
     font-family: Montserrat;
     background-color: #030303;
     color: white;
+    padding-bottom: 50px;
 }
 
 nav {
@@ -37,7 +14,7 @@ nav {
     align-items: center;
     position: fixed;
     height: 50px;
-    width: calc( 100% - 40px );
+    width: calc(100% - 40px);
     left: 0;
     top: calc(100vh - 50px);
     padding: 0 20px;
@@ -47,20 +24,16 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFBEB;
+    color: #fffbeb;
     text-decoration: unset;
     width: 30px;
     height: 30px;
 }
 
-/* nav a:last-child {
-    padding-right: 20px;
-} */
-
 nav .menu {
     display: flex;
     justify-content: space-between;
-    width: calc( 35px * 3 );
+    width: calc(35px * 3);
     padding-right: 20px;
 }
 
@@ -68,7 +41,6 @@ nav .menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .about .name {
@@ -83,8 +55,8 @@ nav .menu {
 .about .deco {
     width: 55px;
     height: 8px;
-    background-color: #FCDA03;
-    margin-top: 8px; 
+    background-color: #fcda03;
+    margin-top: 8px;
 }
 
 .about .description {
@@ -92,7 +64,7 @@ nav .menu {
 }
 
 .about .description .text {
-    color:white;
+    color: white;
     line-height: 25px;
     font-size: 20px;
     margin-bottom: 12px;
@@ -102,27 +74,11 @@ nav .menu {
     margin-top: 10px;
 }
 
-.about .skills .box .skill{
+.about .skills .box .skill {
     display: inline-block;
-    border: 1px #FFFBEB solid;
+    border: 1px #fffbeb solid;
     border-radius: 25px;
     padding: 0.5rem 1.2rem;
     margin-right: 15px;
     margin-top: 20px;
-}
-
-.about .skills .box {
-   
-}
-
-.projects .box .project {
-
-}
-
-.projects .box .project .text-box{
-    
-}
-
-body {
-    padding-bottom: 50px;
 }
