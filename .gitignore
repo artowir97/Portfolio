@@ -310,7 +310,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -330,5 +331,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Temporary disabled 
+.idea
+old
+old/*
 
 # End of https://www.toptal.com/developers/gitignore/api/macos

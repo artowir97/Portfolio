@@ -50,7 +50,7 @@ nav .box .menu:hover .item {
 
 nav .box .menu:hover .active {
     font-weight: bold;
-    color: black
+    color: black;
 }
 
 nav .box .menu:hover .item:first-of-type {
@@ -65,7 +65,7 @@ nav .box .menu .item {
     color: #303030;
 }
 
-@keyframes menu-drop
+@keyframes moveBox
 {
     0% { margin-left: 0; background-color: dodgerblue }
     25% { margin-left: 5%; background-color: crimson }
@@ -77,6 +77,5 @@ nav .box .menu .item {
 .animation {
     height: 200px;
     width: 200px;
-    animation: menu-drop 5s ease-in-out 1s infinite; 
-    /* animation: [animation-name] [animation-duration] [animation-timing-function] [animation-delay] [animation-interation-count] [animation-direction] [animation-fill-mode]; */
+    animation: moveBox 5s ease-in-out 1s infinite; 
 }
